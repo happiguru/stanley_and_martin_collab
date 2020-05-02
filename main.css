@@ -6,7 +6,7 @@ body{
 header {
     width: 100%;
     height: 100px;
-    background-color: black;
+    background-color: turquoise;
 }
 #header-img {
     float: left;
@@ -19,11 +19,14 @@ header {
     position: fixed;
     float: right;
     margin-left: 250px ;
-    margin-top: 30px;
     width: 80%;
     height: 50px;
 }
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
 .flex-container {
     display: flex;
