@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Stanley and Martin Collaborative Project</title>
         <link rel="stylesheet" href="main.css" type="text/css">
+        <style>
+            .flex-container {
+              display: flex;
+              background-color: DodgerBlue;
+            }
+            
+            .flex-container > div {
+              background-color: #f1f1f1;
+              margin: 10px;
+              padding: 20px;
+              font-size: 30px;
+            }
+            @media only screen and (max-width: 600px) {
+                body {
+                         background-color: lightblue;
+
+                     }
+                }
+            </style>
     </head>
     <body>
         <header id="header">
-            <img id="header-img" src="header_img.jpg" width="50px" height="50px" alt="Company_logo">
+            <img id="header-img" src="https://dl.dropboxusercontent.com/s/1gxdgxvj49zajft/admins%20blog.png" width="50px" height="50px" alt="Company_logo">
             <nav id="nav-bar">
                 <a class="nav-link" href="#p1">Link 1</a>
                 <a class="nav-link" href="#p2">Link 2</a>
@@ -80,10 +100,16 @@
         </p>
         
           <iframe id="video" src="https://www.youtube.com/watch?v=M0wZ6t9NodU" style="height:200px;width:300px;"></iframe>
-            <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
-                <input id="email" type="email" placeholder="Enter your email">
+            <form id="form" method="post" action="https://www.freecodecamp.com/email-submit.html">
+                <input id="email" type="email" name="email" placeholder="Enter your email">
                 <input id="submit" type="submit">
             </form>
+
+            <div id="flexbox" class="flex-container">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>  
+              </div>
           <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 
