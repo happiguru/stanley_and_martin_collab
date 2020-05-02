@@ -14,3 +14,9 @@ header {
 #p1, #p2, #p3 {
     margin: 0px 100px 0px 100px;
 }
+#nav-bar {
+    background-color: green;
+    position: fixed;
+    float: right;
+    margin: 0px;
+}
