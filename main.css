@@ -1,0 +1,16 @@
+body{
+    background-color: #ffffff;
+    font-size: 18px;
+    line-height: 1.25em;
+}
+header {
+    width: 100%;
+    height: 100px;
+}
+#header-img {
+    float: left;
+    margin-left: 100px;
+}
+#p1, #p2, #p3 {
+    margin: 0px 100px 0px 100px;
+}
